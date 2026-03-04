@@ -1,0 +1,178 @@
+#research:
+#  - name: STR_GENERAL_BUILDING
+#    cost: 180
+#    points: 15
+#  - name: STR_BUILDING_RESOURCES
+#    cost: 250
+#    points: 15
+#    dependencies:
+#      - STR_GENERAL_BUILDING      
+#      - STR_BASIC_FLIGHT_TRAINING
+#  - name: STR_SPECIAL_RESOURCES
+#    cost: 500
+#    points: 30
+#    dependencies:
+#      - STR_ELERIUM_115 
+#      - STR_ALIEN_ALLOYS
+#      - STR_BUILDING_RESOURCES
+
+research:
+  - delete: STR_MONEY_BRIEFCASE
+  - delete: STR_MEDICINE
+  - delete: STR_BIO_LABORATORY
+  - delete: STR_IMPROVED_RADAR_CRAFT
+  - delete: STR_INTERCEPTOR
+  - delete: STR_SKYRAIDER
+  - delete: STR_ADVANCED_FLIGHT_TRAINING
+  - delete: STR_UFO_PROPULSION
+  - delete: STR_HEAVY_TRANSPORTER
+  - delete: STR_SENTINEL_INTERCEPTOR
+
+# Added STR_INTELLIGENCE_OFFICER_INTRODUCTION requirement
+  - name: STR_MONEY_BRIEFCASE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: false
+    dependencies:
+      - STR_INTELLIGENCE_OFFICER_INTRODUCTION
+    listOrder: 57350
+
+  # Default XCF Settings
+  #        requiresBaseFunc: [BIOLAB]
+  - name: STR_MEDICINE
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_CHIEF_MEDICAL_OFFICER_INTRODUCTION
+    listOrder: 750
+
+  # Default XCF Settings
+  #        requiresBaseFunc: [BIOLAB]
+  - name: STR_BIO_LABORATORY
+    cost: 50
+    points: 10
+    dependencies:
+      - STR_ADVANCED_MEDICINE
+    listOrder: 7060
+
+# Added STR_SCRAMJET requirement
+  - name: STR_INTERCEPTOR
+    requiresBaseFunc: [STDLAB]
+    cost: 500
+    points: 100
+    dependencies:
+      - STR_SCRAMJET
+      - STR_ALIEN_ENGINEERING
+    listOrder: 7460
+
+# Added STR_SCRAMJET requirement
+  - name: STR_SKYRAIDER
+    requiresBaseFunc: [STDLAB]
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_MILESTONE_2_SUMMARY
+      - STR_DRAGONFLY
+      - STR_SCRAMJET
+      - STR_ALIEN_POWER_SYSTEMS
+    listOrder: 7400
+
+# Added STR_ARROW_INVESTIGATION requirement NOPE
+  - name: STR_ADVANCED_FLIGHT_TRAINING
+    cost: 100
+    points: 100
+    dependencies:
+      - STR_MILESTONE_3_SUMMARY
+      - STR_XCOM_PARAMILITARY_OPERATIONS
+      - STR_BASIC_FLIGHT_TRAINING
+      - STR_MILITARY_ENVOY_CONTACT
+#      - STR_ARROW_INVESTIGATION 
+# removed by Scav
+    listOrder: 300500
+
+  - name: STR_SCRAMJET
+    requiresBaseFunc: [STDLAB]
+    cost: 200 # halved Scav
+    points: 100 # halved Scav
+    dependencies:
+      - STR_MIG31
+#      - STR_ARROW_INVESTIGATION
+# replaced by Scav
+    listOrder: 3680
+
+  - name: STR_UAC_AEROSHOP
+    cost: 80
+    points: 30
+    dependencies:
+      - STR_UAC_OUTSOURCING
+      - STR_ARROW_INVESTIGATION
+    listOrder: 300450
+
+  - name: STR_UAC_AEROSHOP
+    cost: 80
+    points: 30
+    dependencies:
+      - STR_UAC_CONTACT
+      - STR_ARROW_INVESTIGATION
+    listOrder: 300450
+
+# Add STR_SCRAMJET requirement
+  - name: STR_UFO_PROPULSION
+    requiresBaseFunc: [IMPLAB]
+    cost: 400
+    points: 400
+    dependencies:
+      - STR_SCRAMJET
+      - STR_UFO_CONSTRUCTION
+      - STR_ALIEN_GRAVITY_GENERATOR
+    listOrder: 1970
+
+# Remove alien tech requirements from HAWKEYE
+  - name: STR_IMPROVED_RADAR_CRAFT
+    cost: 300
+    points: 20
+    dependencies:
+      - STR_MILITARY_ENVOY_CONTACT
+      - STR_LARGE_RADAR_SYSTEM
+      - STR_XCOM_PARAMILITARY_OPERATIONS
+      - STR_BASIC_FLIGHT_TRAINING
+# ok idk
+      # - STR_ALIEN_ALLOYS
+      # - STR_UFO_NAVIGATION
+      # - STR_ELERIUM_115
+    listOrder: 7340
+
+# Added STR_LOST_ALIEN_SHIP_DATA_ANALYSIS (KITSUNE) requirement NOPE
+  - name: STR_SENTINEL_INTERCEPTOR
+    requiresBaseFunc: [IMPLAB]
+    cost: 400
+    points: 25
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
+      - STR_UFO_NAVIGATION
+      - STR_UFO_POWER_SOURCE
+      - STR_PRECISE_ALLOY_SHAPING
+#      - STR_LOST_ALIEN_SHIP_DATA_ANALYSIS
+# removed by Scav
+    unlocks:
+      - STR_ELECTRONICS_MOD_PREQ
+      - STR_SHIELD_GEN_PREQ
+      - STR_SPACE_FLIGHT
+    listOrder: 7560
+
+# Added STR_LOST_ALIEN_SHIP_DATA_ANALYSIS (KITSUNE) requirement NOPE
+  - name: STR_HEAVY_TRANSPORTER
+    requiresBaseFunc: [STDLAB]
+    cost: 300
+    points: 25
+    dependencies:
+      - STR_IMPROVED_INTERCEPTOR
+      - STR_ZRBITE_DRIVE
+      - STR_PRECISE_ALLOY_SHAPING
+#      - STR_LOST_ALIEN_SHIP_DATA_ANALYSIS
+# removed by Scav
+    unlocks:
+      - STR_ELECTRONICS_MOD_PREQ
+      - STR_ENGINE_MOD_PREQ
+    listOrder: 30350

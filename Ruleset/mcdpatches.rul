@@ -1,0 +1,5 @@
+MCDPatches:
+  - type: XBASE1
+    data:
+      - MCDIndex: 20
+        bigWall: 3

@@ -1,0 +1,527 @@
+facilities:
+
+  # XCF Default HQ
+  #             provideBaseFunc: [BIOLAB, INTLAB, HQ]
+  #             Labs:               5
+  #             Storage:            25
+  #             buildCost:          3000000
+  #             buildTime:          40
+  #             monthlyCost:        30000
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 0
+  - override: STR_HQ
+    provideBaseFunc: [INTLAB, HQ, BIOLAB]
+    storage: 25
+    personnel: 25
+    aliens: 5
+    prisonType: 4
+    manaRecoveryPerDay: 1
+    rightClickActionType: 3
+
+  # XCF Default Cyber HQ
+  #             provideBaseFunc: [BIOLAB, INTLAB, AI, HQ]
+  #             Labs:               5
+  #             Storage:            25
+  #             buildCost:          4000000
+  #             buildTime:          50
+  #             monthlyCost:        100000
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 0
+  - override: STR_CYBER_HQ
+    provideBaseFunc: [INTLAB, AI, HQ, BIOLAB]
+    storage: 25
+    personnel: 25
+    aliens: 5
+    prisonType: 4
+    manaRecoveryPerDay: 2
+    rightClickActionType: 3
+
+  # XCF Default Science Lab
+  #             Labs:        25
+  #             Storage:     0
+  #             buildCost:   2000000
+  #             monthlyCost: 90000
+  - override: STR_LABORATORY
+    storage: 5
+    rightClickActionType: 3
+
+  # XCF Default Improved Science Lab
+  #             Labs:        25
+  #             Storage:     0
+  #             buildCost:   6000000
+  #             monthlyCost: 200000
+  - override: STR_IMPROVED_LABORATORY
+    storage: 5
+    rightClickActionType: 3
+
+  # XCF Default Advanced Science Lab
+  #             Labs:        25
+  #             Storage:     0
+  #             buildCost:   20000000
+  #             monthlyCost: 350000
+  - override: STR_ADVANCED_LABORATORY
+    storage: 5
+    rightClickActionType: 3
+
+  # XCF Default Bio Lab
+  #             Labs:        5
+  #             Storage:     0
+  #             buildCost:   750000
+  #             monthlyCost: 70000
+  - override: STR_BIO_LABORATORY
+    storage: 3
+    rightClickActionType: 3
+
+  # XCF Default Intel Lab
+  #             Labs:        5
+  #             Storage:     0
+  #             buildCost:   750000
+  #             monthlyCost: 70000
+  - override: STR_INTEL_LABORATORY
+    storage: 2
+    rightClickActionType: 3
+
+  # XCF Default Advanced Intel Lab
+  #             requiresBaseFunc: [INTLAB]
+  #             Labs:        7
+  #             Storage:     0
+  #             buildCost:   1250000
+  #             monthlyCost: 120000
+
+  - override: STR_ADVANCED_INTEL_LABORATORY
+    requiresBaseFunc: [INTLAB, AI]
+    storage: 2
+    rightClickActionType: 3
+
+  # XCF Default Lunar Lab
+  #             Labs:        3
+  #             Storage:     0
+  #             buildCost:   2500000
+  #             monthlyCost: 240000
+  - override: STR_LUNAR_CONTROL
+    storage: 5
+    rightClickActionType: 3
+
+  # XCF Default Psionic Lab
+  #             manaRecoveryPerDay: 0
+  - override: STR_MIND_SHIELD
+    manaRecoveryPerDay: 6
+
+  # XCF Default Psionic Lab
+  #             buildCost:   750000
+  #             monthlyCost: 48000
+  #             psiLabs:            10
+  #             storage:            0
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 0
+  - override: STR_PSIONIC_LABORATORY
+    manaRecoveryPerDay: 5
+    rightClickActionType: 5
+
+  # XCF Default Sick Bay
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 0
+  - override: STR_SICK_BAY
+    manaRecoveryPerDay: 1
+    rightClickActionType: 6
+
+  # XCF Default Advanced Sick Bay:
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 0
+  - override: STR_ADVANCED_SICK_BAY
+    manaRecoveryPerDay: 2
+    rightClickActionType: 6
+
+  # XCF Default Sensorium
+  #             buildCost: 1000000
+  #             personnel:          0
+  #             aliens:             0
+  #             prisonType:         0
+  #             manaRecoveryPerDay: 8
+  - override: STR_SENSORIUM
+    manaRecoveryPerDay: 8
+    rightClickActionType: 6
+
+  # XCF Default Living Quarters
+  #               buildCost:          400000
+  #               monthlyCost:        10000
+  #               personnel:          50
+  #               storage:            0
+  #               aliens:             0
+  #               prisonType:         0
+  #               manaRecoveryPerDay: 3
+  #             Large Living Quarters:
+  #               buildCost:          2250000
+  #               monthlyCost:        35000
+  #               personnel:          250 (62/block)
+  #               storage:            50  (12/block)
+  #               manaRecoveryPerDay: 4
+  - override: STR_LIVING_QUARTERS
+#    requires:
+#      - STR_MILESTONE_1_SUMMARY
+    canBeBuiltOver: true
+    storage: 5
+    rightClickActionType: 6
+
+  - override: STR_LIVING_QUARTERS_2
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+    buildOverFacilities:
+      - STR_LIVING_QUARTERS
+    manaRecoveryPerDay: 4
+    rightClickActionType: 6
+
+  # XCF Default Gym
+  #               buildCost:   140000
+  #               monthlyCost: 35000
+  #               trainingRooms: 10
+  - override: STR_GYM
+    trainingRooms: 20
+
+  # XCF Default Genereal Stores:
+  #               buildCost:   150000
+  #               monthlyCost: 5000
+  #               storage:    50
+  #               aliens:     20
+  #             Large General Stores:
+  #               buildCost:   1000000
+  #               monthlyCost: 16000
+  #               storage:    275  (68/block)
+  #               aliens:     40   (10/block)
+  #             Hughe General Stores:
+  #               buildCost:   2500000
+  #               monthlyCost: 40000
+  #               storage:    1500 (166/block)
+  #               aliens:     400  (44/block)
+  - override: STR_GENERAL_STORES
+    canBeBuiltOver: true
+#    requires:
+#      - STR_MILESTONE_1_SUMMARY
+  - override: STR_GENERAL_STORES_2
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+    canBeBuiltOver: true
+    buildOverFacilities:
+      - STR_GENERAL_STORES
+
+  - override: STR_GENERAL_STORES_3
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+      - STR_GENERAL_STORES_3
+    buildOverFacilities:
+      - STR_GENERAL_STORES
+      - STR_GENERAL_STORES_2
+
+  # XCF Default Workshop:
+  #               buildCost:   800000
+  #               monthlyCost: 50000
+  #               workshops:   50
+  #               aliens:      0
+  #               prisonType:  0
+  #             Large Workshop:
+  #               buildCost:   4600000
+  #               monthlyCost: 200000
+  #               workshops:   250 (62/block)
+  #               aliens:      5
+  #               prisonType:  4
+  #               storage:     25  (6/block)
+  - override: STR_WORKSHOP
+    storage: 10
+    rightClickActionType: 2
+  - override: STR_LARGE_WORKSHOP
+    storage: 25
+    rightClickActionType: 2
+
+  # XCF Deafult Alloy Manufacturing:
+  #               buildCost:   800000
+  #               monthlyCost: 50000
+  #               workshops:  15
+  #               aliens:     0
+  #               prisonType: 0
+  #               storage:    0
+  - override: STR_ALLOYS_MANUFACTURING
+    storage: 15
+    rightClickActionType: 2
+
+  # XCF Deafult Alien Containment:
+  #               buildCost: 400000
+  #               monthlyCost: 30000
+  #               aliens:    10
+  #               storage:   0
+  - override: STR_ALIEN_CONTAINMENT
+    rightClickActionType: 1
+
+  # XCF Deafult Animal Cages:
+  #               buildCost: 100000
+  #               monthlyCost: 6000
+  #               aliens:    10
+  #               storage:   0
+  - override: STR_ANIMAL_CAGES
+    aliens: 20
+    rightClickActionType: 1
+
+  # XCF Deafult Prison Cell
+  #               buildCost: 120000
+  #               monthlyCost: 8000
+  #               aliens:    10
+  #               storage:   0
+  - override: STR_PRISON_CELLS
+    rightClickActionType: 1
+
+  # XCF Deafult Ghost Tank
+  #               buildCost: 300000
+  #               monthlyCost: 33000
+  #               aliens:    10
+  #               storage:   0
+  - override: STR_GHOST_TANK
+    aliens: 20
+    rightClickActionType: 1
+
+  # XCF Deafult Hyperwave Decoder
+  #
+  - override: STR_HYPER_WAVE_DECODER
+    requiresBaseFunc: [AI]
+
+# rightClickActionType:
+#       0 - Null (Default)
+#       1 - Alien Containment / All Cages
+#       2 - Manufactuing (Workshops)
+#       3 - Research (Labs)
+#       4 - Combat Training (Gym)
+#       5 - Psionic Training (PsiLabs)
+#       6 - Agents (Living Quarters)
+#       7 - Sell/Sack (Grey Market)
+#       8 - GeoScape
+#       9 - ...
+
+
+  # TODO:
+  # - Remove from starting base:
+  #   general stores
+  #   living quarters
+  # - Make facilities need building materials & an architect
+  #   general stores
+  #   living quarters
+
+  #
+  # update hangar expansion mod, remove 3x3
+  # update double hangar, 2 crafts, remove storage space
+  # and reduce workshop to 5
+  # remove STR_LARGE_HANGAR
+
+  # Hanger Expansion Mod
+  #                workshops: 10
+  #                storage: 50
+  #                aliens: 20
+  #                prisonType: 4
+  # - override: STR_UPGRADED_HANGAR
+  #   workshops: 0
+  #   storage: 0
+
+  # XCF Deafult Hangar:
+  #               workshops: 5
+  #               storage:   25
+  # - override: STR_HANGAR
+  #   workshops: 10
+  #   storage: 75
+  # Things to delete
+  # STR_LIVING_QUARTERS_2
+  # STR_GENERAL_STORES_2
+  # STR_GENERAL_STORES_3
+  # STR_LARGE_WORKSHOP
+  # STR_LARGE_HANGAR
+
+  # HANGARS
+  #
+  #  TODO: - Build out all batlescape hangar maps.
+  #        - storageTiles and multi-craft placement graphics
+  #
+  #     Build times, costs, monthly cost all derived from 
+  #       #of walls, floors, and starting base costs from
+  #       original hangar. Workshops based off works shop
+  #       floor tiles with yellow stripes and storage
+  #       based off #of wall tiles.
+  #
+  # Hanger x1 #of WalLs         (HWs)  = 8
+  #           #of Floors        (HFs)  = 4
+  #           Construction Area (HCA)  = 0.5         = 1/2
+  #           Build Cost        (HBC)  = 200000
+  #           Built Time        (HBT)  = 25
+  #           Monthly Cost      (HMC)  = 25000
+  #           #of Storage        (HS)  = 40          = (HWs) * 10 / 2
+  #           #of Workshops      (HW)  = 10          = (HCA) * 20
+  #
+  # Hanger x4 #of WalLs         (H4Ws) = 12
+  #           #of Floors        (H4Fs) = 9
+  #           Construction Area (HCA)  = 1           = 1/2 + 1/4 + 1/4
+  #           Build Cost        (H4BC) = 330000      = (HBC) / (2 * HWs + HFs) * (2 * H4Ws + H4Fs)
+  #           Built Time        (H4BT) = 40         ~= (HBT) / (2 * HWs + HFs) * (2 * H4Ws + H4Fs)
+  #           Monthly Cost      (H4MC) = 55000      ~= (HMC) / (HFs) * (H4Fs)
+  #           Fast BT           (F4BT) = 25          = (HBT)
+  #           Fast BC           (F4BC) = 550000      = (H4BC) / (HBT) * (H4BT)
+  #           #of Storage        (HS)  = 60          = (H4Ws) * 10 / 2
+  #           #of Workshops      (HW)  = 20          = (H9Fs w/ Construction Area) * 20
+  #
+  # Hanger x9 #of WalLs         (H9Ws) = 16
+  #           #of Floors        (H9Fs) = 16
+  #           Construction Area (HCA)  = 1           = 1/2 + 1/4 + 1/4
+  #           Build Cost        (H9BC) = 480000      = (HBC) / (2 * HWs + HFs) * (2 * H9Ws + H9Fs)
+  #           Built Time        (H9BT) = 60          = (HBT) / (2 * HWs + HFs) * (2 * H9Ws + H9Fs)
+  #           Monthly Cost      (H9MC) = 100000      = (HMC) / (HFs) * (H4Fs)
+  #           Fast BT           ()     = 25
+  #           Fast BC           (F9BC) = H4BC * H4BT / HBT
+  #                                    = 1150000
+  #           #of Storage       (HS)   = 80     = (H9Ws) * 10 / 2
+  #           #of Workshops     (HW)   = 20     = (H9Fs w/ Construction Area)
+  #                                          (0.25 + 0.25 + 0.5) * 20
+  #
+  #
+
+  - type: STR_GARAGE
+    spriteShape: 1
+    spriteFacility: 890
+    size: 1
+    buildCost: 50000
+    buildTime: 12
+    monthlyCost: 10000
+    hangarType: 0
+    crafts: 1
+    craftSlots:
+      - [-2, 0, 0]
+    workshops: 3
+    storage: 5
+    aliens: 1
+    prisonType: 4
+    mapName: XCFG_00
+    listOrder: 7260
+    canBeBuiltOver: true
+
+  # XCF Deafult Hangar (Additional Features):
+  #               workshops: 5
+  #               storage:   25
+  - override: STR_HANGAR
+    requires:
+      - STR_BASIC_FLIGHT_TRAINING
+    hangarType: 1
+    workshops: 7
+    storage: 15
+    canBeBuiltOver: true
+    buildOverFacilities:
+      - STR_GARAGE
+
+  - type: STR_HANGARX4_3X3
+    requires:
+      - STR_UAC_AEROSHOP
+    spriteShape: 910
+    provideBaseFunc: [ AEROSHOP ]
+    requiresBaseFunc: [ HQ ]
+    size: 3
+    buildCost: 3250000
+    buildTime: 26
+    monthlyCost: 65000
+    hangarType: 1
+    crafts: 4
+    craftSlots:
+      - [-17, -17, 0]
+      - [17, -17, 0]
+      - [-17, 17, 0]
+      - [17, 17, 0]
+    workshops: 50
+    storage: 50
+    aliens: 20
+    prisonType: 4
+    # Replace XBLH_01 - needs new custom map
+    mapName: XBLH_01
+    listOrder: 7262
+    canBeBuiltOver: true
+    buildOverFacilities:
+      - STR_GARAGE
+      - STR_HANGAR
+
+  #  - type: STR_HANGARX9_4X4
+  #    requires:
+  #      # Update resaerch to change AR & UC to (Researched Hangarx4)
+  #      - STR_ARROW_RUMORS
+  #      - STR_UAC_CONTACT
+  #      - STR_BASIC_FLIGHT_TRAINING
+  #    spriteShape: 928
+  #    provideBaseFunc: [ AEROSHOP ]
+  #    requiresBaseFunc: [ HQ ]
+  #    size: 4
+  #    buildCost: 1150000
+  #    buildTime: 60
+  #    monthlyCost: 100000
+  #    crafts: 9
+  #    # FIX mapName: XBUH_01!!!
+  #    mapName: XBUH_01
+  #    workshops: 20
+  #    storage: 80
+  #    aliens: 40
+  #    prisonType: 4
+  #    listOrder: 7263
+  #    canBeBuiltOver: true
+  #    buildOverFacilities:
+  #      - STR_GARAGE
+  #      - STR_HANGAR
+  #      - STR_HANGARX4_3X3
+
+  - type: STR_HANGAR_CYBERAI_X3_2X2
+    requires:
+      - STR_CYBER_HQ
+      - STR_SENTIENT_ALGORYTHMS
+      - STR_GRAV_MODULE_CONSTRUCTION
+      - STR_ADVANCED_FLIGHT_TRAINING
+    spriteShape: 961
+    spriteFacility: 9
+    provideBaseFunc: [ WORKS ]
+    requiresBaseFunc: [ AI ]
+    size: 2
+    buildCost: 6000000
+    buildTime: 50
+    monthlyCost: 95000
+    hangarType: 1
+    crafts: 3
+    craftSlots:
+      - [1, 1, 0]
+    workshops: 10
+    storage: 50
+    aliens: 10
+    prisonType: 4
+    storageTiles:
+      - [0, 8, 0]
+      - [0, 10, 0]
+      - [0, 12, 0]
+      - [1, 11, 0]
+      - [1, 9, 0]
+      - [0, 16, 0]
+      - [0, 18, 0]
+      - [1, 17, 0]
+      - [2, 16, 0]
+      - [2, 18, 0]
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 60
+        refund: 20
+      STR_ALIEN_ALLOYS:
+        build: 90
+        refund: 90
+      STR_AQUA_PLASTICS:
+        build: 45
+        refund: 15
+    # Needs Unique Design mapName:
+    mapName: XBASE_16
+    listOrder: 7262
+    canBeBuiltOver: true
+    buildOverFacilities:
+      - STR_GARAGE
+      - STR_HANGAR

@@ -1,0 +1,13 @@
+name: "X-Com Files Reworked Facility Expansion Pack"
+version: 0.9.3
+requiredExtendedVersion: "8.2"
+requiredBrutalVersion: "8.2"
+requiredXComFilesVersion: "3.8"
+id: XCF_Facility_Expansion_Pack
+description: "Includes Garages, AeroCraft & Cyber AI Hangar, minor changes to storage. Starting conditions and research fixed. OXCE+BRUTAL needed."
+isMaster: false
+master: x-com-files
+author: 0xEBJC - reworked by Scavenger
+# Addtional Credits
+# author: FlaubertNHR (Garage Mod)
+# author: Biggieboy82 (Original Hangar Mode battlescape maps)

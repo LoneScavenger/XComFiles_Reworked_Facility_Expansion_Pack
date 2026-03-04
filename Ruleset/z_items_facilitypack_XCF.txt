@@ -1,0 +1,13 @@
+#items:
+#  - type: STR_BUILDING_RESOURCES
+#    requires:
+#      - STR_BUILDING_RESOURCES
+#    size: 2.0
+#    costSell: 50350
+#    transferTime: 24
+#  - type: STR_SPECIAL_RESOURCES
+#    requires:
+#      - STR_SPECIAL_RESOURCES
+#    size: 3.0
+#    costSell: 675000
+#    transferTime: 24

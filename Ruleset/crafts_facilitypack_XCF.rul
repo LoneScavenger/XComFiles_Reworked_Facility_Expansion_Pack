@@ -1,0 +1,131 @@
+﻿crafts:
+# Override Base Sprite Graphics
+# These sprites should be equivalent to X-Com Files v3.2 >=
+  - override: STR_VAN
+    sprite: 829
+    hangarType: 0
+  - override: STR_LUXURY_CAR
+    sprite: 867
+    hangarType: 0
+# These sprites are overriding the default X-Com Files sprites
+  - override: STR_OPSCAR
+    hangarType: 0
+    sprite: 871
+  - override: STR_HUMMER
+    sprite: 870
+    hangarType: 0
+  - override: STR_CIVILIAN_CAR
+    sprite: 832
+    hangarType: 0
+  
+  - type: STR_SUV
+    hangarType: 0
+  - type: STR_MOTORCYCLE
+    hangarType: 0
+
+# Mudranger in hangar, whether it fits?
+  - override: STR_MUDRANGER
+    hangarType: 0
+  - override: STR_IMPROVED_MUDRANGER
+    hangarType: 0
+
+# Make the Arrow 105 slightly matched to UFOs
+  - override: STR_ARROW
+    speedMax: 1900  # 1500
+    accel: 3        # 4
+    hangarType: 1
+  - override: STR_MIG31
+    speedMax: 1750  #
+    accel: 4        # 3
+    hangarType: 1
+
+# Change HAWKEYE from manufacture to purchase
+# now only a radar craft no transport
+  - override: STR_HAWKEYE
+    fuelMax: 2500
+    costBuy: 870000
+    costSell: 580000
+    costRent: 100000
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    hangarType: 1
+
+# Doubled fuel to compensate for Hawkeye fuel increase
+  - override: STR_DARKSTAR
+    fuelMax: 4500
+    hangarType: 1
+
+# Fills the hangarType tag to show crafts in hangars
+  - override: STR_HELICOPTER
+    hangarType: 1
+    
+  - override: STR_LITTLE_BIRD
+    hangarType: 1
+
+  - override: STR_OSPREY
+    hangarType: 1
+
+  - override: STR_DRAGONFLY
+    hangarType: 1
+
+  - override: STR_INTERCEPTOR
+    hangarType: 1
+
+  - override: STR_SKYRAIDER
+    hangarType: 1
+
+  - override: STR_SKYRANGER
+    hangarType: 1
+
+  - override: STR_ALLOY_SKYRANGER
+    hangarType: 1
+
+  - override: STR_RAVEN
+    hangarType: 1
+
+  - override: STR_TORMENTOR
+    hangarType: 1
+
+  - override: STR_SENTINEL
+    hangarType: 1
+
+  - override: STR_THUNDERSTORM
+    hangarType: 1
+
+  - override: STR_DROPSHIP
+    hangarType: 1
+
+  - override: STR_LIGHTNING
+    hangarType: 1
+
+  - override: STR_FIRESTORM
+    hangarType: 1
+
+  - override: STR_AVENGER
+    hangarType: 1
+
+  - override: STR_KITSUNE
+    hangarType: 1
+
+  - override: STR_STARFIGHTER
+    hangarType: 1
+
+  - override: STR_XCOM_AIRCAR
+    hangarType: 1
+
+  - override: STR_XCOM_LANDER
+    hangarType: 1
+
+  - override: STR_VIPER_XCOM
+    hangarType: 1
+
+  - override: STR_SNAPPING_TURTLE_XCOM
+    hangarType: 1
+
+  - override: STR_SUBMARINE
+    hangarType: 1
+
+  - override: STR_BIG_SUBMARINE
+    hangarType: 1

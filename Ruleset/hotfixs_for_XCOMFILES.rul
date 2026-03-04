@@ -1,0 +1,10 @@
+crafts:
+# X-Com Files HOTFIXs
+  - override: STR_KITSUNE
+    requires:
+      # - STR_KITSUNE
+      - STR_LOST_ALIEN_SHIP_DATA_ANALYSIS
+  - override: STR_ARROW
+    requires:
+      # - STR_ARROW
+      - STR_ARROW_INVESTIGATION

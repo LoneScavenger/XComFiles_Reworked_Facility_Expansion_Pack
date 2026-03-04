@@ -1,0 +1,52 @@
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      862: Resources/Cars/Basebits/Van_base.png
+      865: Resources/Cars/Basebits/Car_base.png
+      904: Resources/Cars/Basebits/Opscar_base.png
+      890: Resources/Facilities/Garage.png
+      900: Resources/Cars/Basebits/LuxuryCar_base.png
+      903: Resources/Cars/Basebits/Hummer_base.png
+      910: Resources/Facilities/HANGX4_1.png
+      911: Resources/Facilities/HANGX4_2.png
+      912: Resources/Facilities/HANGX4_3.png
+      913: Resources/Facilities/HANGX4_4.png
+      914: Resources/Facilities/HANGX4_5.png
+      915: Resources/Facilities/HANGX4_6.png
+      916: Resources/Facilities/HANGX4_7.png
+      917: Resources/Facilities/HANGX4_8.png
+      918: Resources/Facilities/HANGX4_9.png
+      919: Resources/Facilities/HANGX4_b_1.png
+      920: Resources/Facilities/HANGX4_b_2.png
+      921: Resources/Facilities/HANGX4_b_3.png
+      922: Resources/Facilities/HANGX4_b_4.png
+      923: Resources/Facilities/HANGX4_b_5.png
+      924: Resources/Facilities/HANGX4_b_6.png
+      925: Resources/Facilities/HANGX4_b_7.png
+      926: Resources/Facilities/HANGX4_b_8.png
+      927: Resources/Facilities/HANGX4_b_9.png
+      961: Resources/Facilities/HANGAIX3_1.png
+      962: Resources/Facilities/HANGAIX3_2.png
+      963: Resources/Facilities/HANGAIX3_3.png
+      964: Resources/Facilities/HANGAIX3_4.png
+      965: Resources/Facilities/HANGX4_b_1.png
+      966: Resources/Facilities/HANGX4_b_3.png
+      967: Resources/Facilities/HANGX4_b_7.png
+      968: Resources/Facilities/HANGX4_b_9.png
+#      965: Resources/Facilities/HANGAIX3_b_1.png
+#      966: Resources/Facilities/HANGAIX3_b_2.png
+#      967: Resources/Facilities/HANGAIX3_b_3.png
+#      968: Resources/Facilities/HANGAIX3_b_4.png
+
+  - type: INTICON.PCK
+    files:
+      829: Resources/Vessels/Inticon/Van_minimised.png
+      832: Resources/Vessels/Inticon/Car_minimised.png
+      840: Resources/Vessels/Inticon/Van_dogfight.png
+      843: Resources/Vessels/Inticon/Car_dogfight.png
+      867: Resources/Vessels/Inticon/LuxuryCar_minimised.png
+      870: Resources/Vessels/Inticon/Hummer_minimised.png
+      871: Resources/Vessels/Inticon/Opscar_minimised.png
+      878: Resources/Vessels/Inticon/LuxuryCar_dogfight.png
+      881: Resources/Vessels/Inticon/Hummer_dogfight.png
+      882: Resources/Vessels/Inticon/Opscar_dogfight.png

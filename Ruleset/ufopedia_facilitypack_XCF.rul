@@ -1,0 +1,102 @@
+ufopaedia:
+  - id: STR_LIVING_QUARTERS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_LIVING_QUARTERS_UFOPEDIA
+    requires:
+      - STR_MILESTONE_1_SUMMARY
+    listOrder: 6900
+  - id: STR_LIVING_QUARTERS_2
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_LIVING_QUARTERS_2_UFOPEDIA
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+    listOrder: 6910
+  - id: STR_GENERAL_STORES
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_GENERAL_STORES_UFOPEDIA
+    requires:
+      - STR_MILESTONE_1_SUMMARY
+    listOrder: 6850
+  - id: STR_GENERAL_STORES_2
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_GENERAL_STORES_2_UFOPEDIA
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+    listOrder: 6860
+  - id: STR_GENERAL_STORES_3
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_GENERAL_STORES_3_UFOPEDIA
+    requires:
+      - STR_MILESTONE_2_SUMMARY
+      - STR_GENERAL_STORES_3
+    listOrder: 6870
+  - id: STR_GARAGE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_GARAGE_UFOPEDIA
+    listOrder: 7210
+  - id: STR_HANGAR
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_HANGAR_UFOPEDIA
+    requires:
+      - STR_BASIC_FLIGHT_TRAINING
+    listOrder: 7210
+  - id: STR_HANGARX4_3X3
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_HANGARX4_3X3_UFOPEDIA
+    requires:
+      - STR_UAC_AEROSHOP
+    listOrder: 7211
+  - id: STR_HANGAR_CYBERAI_X3_2X2
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_HANGAR_CYBERAI_X3_2X2_UFOPEDIA
+    requires:
+      - STR_CYBER_HQ
+      - STR_SENTIENT_ALGORYTHMS
+      - STR_GRAV_MODULE_CONSTRUCTION
+      - STR_ADVANCED_FLIGHT_TRAINING
+    listOrder: 7213
+  - id: STR_SCRAMJET
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    text: STR_SCRAMJET_UFOPEDIA
+    requires:
+      - STR_SCRAMJET
+    listOrder: 10140
+  - id: STR_UAC_AEROSHOP
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: VAST_CPAL
+    text: STR_UAC_AEROSHOP_UFOPEDIA
+    text_width: 310
+    requires:
+      - STR_UAC_AEROSHOP
+    listOrder: 300450
+# Switched list order to Arrow, Mig, Interceptor
+  - id: STR_ARROW
+    listOrder: 7460   # Was 7480
+  - id: STR_INTERCEPTOR
+    listOrder: 7480   # Was 7460
+# Switched list order after Skymarshall & Inteerceptors, to Kitsune, Sentinal, Ironfist, Thunderstorm
+  - id: STR_ALLOY_SKYRANGER
+    listOrder: 7430
+  - id: STR_RAVEN
+    listOrder: 7490
+  - id: STR_THUNDERSTORM
+    listOrder: 7500   # Was 7590
+  - id: STR_STARFIGHTER
+    listOrder: 7510   # Was 7595
+  - id: STR_KITSUNE
+    listOrder: 7550   # Was 7395
+  - id: STR_SENTINEL
+    listOrder: 7560   # Was 7560
+  - id: STR_DROPSHIP
+    listOrder: 7570   # Was 7610

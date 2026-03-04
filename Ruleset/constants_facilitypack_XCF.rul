@@ -1,0 +1,2 @@
+constants:
+  extendedPediaFacilityParams: [ 3, 3, -16, -16 ] # oxcePediaFacilityMaxWidth, oxcePediaFacilityMaxHeight, oxcePediaFacilityOffsetX, oxcePediaFacilityOffsetY

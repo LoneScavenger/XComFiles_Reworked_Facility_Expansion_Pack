@@ -1,0 +1,39 @@
+[CHANGELOG]
+- v0.9.3 Scavenger
+    Mudranger in garage
+    fixed crafts not appearing in basescape hangars
+
+- v0.9.2 Scavenger
+    fixed cars not showing up in dogfight
+
+- v0.9.1 Scavenger
+    Updated text renaming UAC to VAST
+    Updated image id to VAST
+
+- v0.9 Scavenger
+    Removed Arrow Investigation dependency from Advanced Flight Training because Arrow is RNG
+    Removed Kitsune requiring Aeroshop to repair/manufacture from wreck
+    Headquarters have bioLab in them again
+    Garages remain
+    fixed Hummer not being available for Garage
+
+- v0.8.4 Hot Fix
+    Fixed values for hawkeye, can now assign pilots correctly for flight availability.
+- v0.8.3
+    Facility research adjustments:
+    - Significantly lowered the research requirements to get access to the 4x Hangar Aeroshop from "UAC Outsourcing" to "UAC: Contact"
+          This was a mistake, it wasn't intended to be so far down the research path.
+    Craft research adjustments:
+    - Updated the list order of some of the crafts in the udopedia
+    - Added Kitsune research requirement for Sentinel and Ironfist
+    - Added Scramjet research requirement for UFO Propulsion
+    Craft tweaks:
+    - Made the Hawkeye craft a more normal earth tech plane, no alien tech required, purchasable not manufactured, and only a radar craft, no transport.
+    - Increased fly time duration for both radar crafts
+- v0.8.2
+    Updated the constants setting to enable 3x3 facilities view in the UFOPedia for X-Com Files 3.2
+      (this will likely be a default setting in the next release of X-Com Files)
+- v0.8.1 Hot Fix
+    Added missing terrain files, can now enter base battlescape view without crashing
+    Fix missing silhouette for Hanger x3 when waiting on buildtime
+- v0.8.0 Initial Release

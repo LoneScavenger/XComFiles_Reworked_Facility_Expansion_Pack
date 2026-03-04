@@ -1,0 +1,51 @@
+manufacture:
+# make HAWKEYE (STR_IMPROVED_RADAR_CRAFT) a purchase, not manufacture
+  - delete: STR_HAWKEYE
+
+# removed low end antique recovered planes from required AEROSHOP
+#  - override: STR_ARROW
+#    requiresBaseFunc: [AEROSHOP, WORKS]
+#  - override: STR_IMPROVED_MUDRANGER
+#    requiresBaseFunc: [AEROSHOP]
+
+# Crafts that require AEROSHOP
+#  - override: STR_KITSUNE
+#    requiresBaseFunc: [AEROSHOP, WORKS]
+# so that you can get it even with Hangar 
+# you don't need UAC's help in order to repair Kitsune Scav
+
+  - override: STR_ALLOY_SKYRANGER
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_RAVEN
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_STARFIGHTER
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_STARFIGHTER_RECOVERY
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_DROPSHIP
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_DARKSTAR
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_LIGHTNING
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_AVENGER
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_VIPER_XCOM_ASSEMBLE
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_FIRESTORM
+    requiresBaseFunc: [AEROSHOP, WORKS]
+
+  - override: STR_SKYRANGER
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_SKYRAIDER
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_INTERCEPTOR
+    requiresBaseFunc: [AEROSHOP, WORKS]
+# can we manufature these without UAC ?? Scav
+
+  - override: STR_SENTINEL
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_THUNDERSTORM
+    requiresBaseFunc: [AEROSHOP, WORKS]
+  - override: STR_TORMENTOR
+    requiresBaseFunc: [AEROSHOP, WORKS]

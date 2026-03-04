@@ -1,0 +1,30 @@
+en-US:
+  #  -------------------------
+  # Updates for X-Com Files
+  #  -------------------------
+  STR_HQ_UFOPEDIA: "Headquarters collects alien activity reports from around the world and assigns tasks to field agents. It also contains a small laboratory for 5 scientists, which allows for researching basic, biochemical and intelligence projects. In addition, it provides housing for 25 personnel and storage capacity for 25 units of equipment."
+
+  #  -------------------------
+  #  Overrides for X-Com Files
+  #  -------------------------
+  STR_UAC_CONTACT_UFOPEDIA: "Vanguard Aero-Space Technologies is a manufacturer of cutting-edge aircraft and aerial equipment. It is also loosely connected to BlackOps Industries via several major investors, making them a natural candidate to be our supplier. The VAST is keen on advanced discoveries in propulsion technologies. While their ultimate goals remain undisclosed, the VAST subtly hinted at a partnership of establishing Aerocraft manufacturing facilities at X-Com bases. The right breakthroughs could lead to a mutually beneficial collaboration."
+  STR_HAWKEYE_UFOPEDIA: "A radar craft designed for long range reconnaissance and surveillance highly capable of discovering secretive operations where enemy activities are suspected. Undetectable."
+
+  #  -------------------------
+  #  New Added Information
+  #  -------------------------
+  STR_ARROW_INVESTIGATION: "CF-105 Arrow Investigation"
+  STR_ARROW_INVESTIGATION_UFOPEDIA: "After we started looking around for new data on the CF-105, we were contacted by a member of the Council, Mr. Mihko Mayestewan. He claimed to act as a private person, not a Council representative, and provided us with documentation which led us to a semi-abandoned base near Yellowknife. There we found what we assume to be the last Arrow in existence. It appears to have a unique engine configuration, a prototype ramjet engine which was only rumored to exist. The CF-105 Arrow requires some renovation, but appears to be in working condition. Perhaps we could find some use for this venerable craft? It is a fighter after all!"
+  STR_GARAGE: "Garage"
+  STR_GARAGE_UFOPEDIA: "Garage facility, to store small cars {NEWLINE}{NEWLINE}Properties: {NEWLINE}{NEWLINE}> Hangar Type: 0 (Cars) {NEWLINE}> Craft Capacity: 1       {NEWLINE}> Workshop: 3{NEWLINE}> Storage: 5"
+  STR_HANGARX4_3X3: "VAST Aerocraft Plant (Hangar x4)"
+  STR_HANGARX4_3X3_UFOPEDIA: "Upgraded version of the Hangar building, which has similar features, but with larger 4x craft capacity.  Provides VAST system assembly line tooling and a VAST engineering team with adapted proprietary carbon fiber fabrication processes. Base space requirement is 3x3 base blocks.{NEWLINE}{NEWLINE}Properties:                   Base Service: > Aeroshop <{NEWLINE}{NEWLINE}> Craft Capacity: 4{NEWLINE}> Workshop: 50{NEWLINE}> Storage: 50"
+  STR_HANGAR_CYBERAI_X3_2X2: "Anti-Grav AI Aerodock (Hangar x3)"
+  STR_HANGAR_CYBERAI_X3_2X2_UFOPEDIA: "This Hangar facility incorporates alien technology, artificial intelligence and anit-gravity that maximizes space for an operational and automated muli-level subterrain hangar facility that can store multiple aircrafts.  Special materials and power sources are required to generate and mitigate the affects of magnetic and anti-gravity wells created by the facility.{NEWLINE}Properties:{NEWLINE}{NEWLINE}> Craft Capacity: 3{NEWLINE}> Workshop: 10{NEWLINE}> Storage: 50"
+  STR_SCRAMJET: "Scramjet Engine"
+  STR_SCRAMJET_UFOPEDIA: "A scramjet (supersonic combustion ramjet) is a special type of ramjet jet engine where fuel combustion takes place while the air in the engine is moving faster than the speed of sound. In a ramjet, air is slowed to subsonic speeds before fuel is burned. Unlike ramjets, scramjets do not use shock cones to compress incoming air; instead, shock waves from inside the engine compress the air by slowing it down very quickly. Scramjets operate very efficiently at extremely high speeds.  This technology can be adapted to build our own custom aircraft.  With the help of the VAST and their craft assembly processes to build our own aircraft manufacturing plant we will now be fully operational to build advanced aircraft."
+  STR_UAC_AEROSHOP: "VAST Aerocraft Manufacturing Plant"
+  STR_UAC_AEROSHOP_UFOPEDIA: "The VAST has agreed to help us build our own aerocraft manufacturing plant using their proprietary process and systems engineering techniques with the agreement they will keep engineers onsite and work with us in all our future craft developments. On all future technologies we develop together they have agreed to sign a non-disclosure agreement to keep the technologies confidential between their internal development team and collaboration with our agency exclusively.  This will allow us to develop advanced crafts off the scramjet technology and other future alien tech discoveries."
+
+  #  STR_GENERAL_STORES_2: "Large Storage Facility"
+  #  STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units){NEWLINE}{NEWLINE}> Storage Capacity: 2000"
