@@ -1,6 +1,5 @@
 [CHANGELOG]
 
-
 - v0.9.4 Scavenger
     Removed doubled Gym capacity 
     Russian translation by ChatGPT
