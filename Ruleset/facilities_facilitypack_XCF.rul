@@ -181,12 +181,6 @@ facilities:
     manaRecoveryPerDay: 4
     rightClickActionType: 6
 
-  # XCF Default Gym
-  #               buildCost:   140000
-  #               monthlyCost: 35000
-  #               trainingRooms: 10
-  - override: STR_GYM
-    trainingRooms: 20
 
   # XCF Default Genereal Stores:
   #               buildCost:   150000
@@ -250,7 +244,7 @@ facilities:
   #               prisonType: 0
   #               storage:    0
   - override: STR_ALLOYS_MANUFACTURING
-    storage: 15
+    storage: 10
     rightClickActionType: 2
 
   # XCF Deafult Alien Containment:

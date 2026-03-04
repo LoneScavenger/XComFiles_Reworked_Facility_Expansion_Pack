@@ -17,6 +17,7 @@ en-US:
   STR_ARROW_INVESTIGATION_UFOPEDIA: "After we started looking around for new data on the CF-105, we were contacted by a member of the Council, Mr. Mihko Mayestewan. He claimed to act as a private person, not a Council representative, and provided us with documentation which led us to a semi-abandoned base near Yellowknife. There we found what we assume to be the last Arrow in existence. It appears to have a unique engine configuration, a prototype ramjet engine which was only rumored to exist. The CF-105 Arrow requires some renovation, but appears to be in working condition. Perhaps we could find some use for this venerable craft? It is a fighter after all!"
   STR_GARAGE: "Garage"
   STR_GARAGE_UFOPEDIA: "Garage facility, to store small cars {NEWLINE}{NEWLINE}Properties: {NEWLINE}{NEWLINE}> Hangar Type: 0 (Cars) {NEWLINE}> Craft Capacity: 1       {NEWLINE}> Workshop: 3{NEWLINE}> Storage: 5"
+
   STR_HANGARX4_3X3: "VAST Aerocraft Plant (Hangar x4)"
   STR_HANGARX4_3X3_UFOPEDIA: "Upgraded version of the Hangar building, which has similar features, but with larger 4x craft capacity.  Provides VAST system assembly line tooling and a VAST engineering team with adapted proprietary carbon fiber fabrication processes. Base space requirement is 3x3 base blocks.{NEWLINE}{NEWLINE}Properties:                   Base Service: > Aeroshop <{NEWLINE}{NEWLINE}> Craft Capacity: 4{NEWLINE}> Workshop: 50{NEWLINE}> Storage: 50"
   STR_HANGAR_CYBERAI_X3_2X2: "Anti-Grav AI Aerodock (Hangar x3)"
@@ -28,3 +29,4 @@ en-US:
 
   #  STR_GENERAL_STORES_2: "Large Storage Facility"
   #  STR_GENERAL_STORES_2_UFOPEDIA: "This facility is considerably more costly than the General Stores, but it provides better-structured storage space (capacity 275 units){NEWLINE}{NEWLINE}> Storage Capacity: 2000"
+

@@ -1,4 +1,10 @@
 [CHANGELOG]
+
+
+- v0.9.4 Scavenger
+    Removed doubled Gym capacity 
+    Russian translation by ChatGPT
+
 - v0.9.3 Scavenger
     Mudranger in garage
     fixed crafts not appearing in basescape hangars
